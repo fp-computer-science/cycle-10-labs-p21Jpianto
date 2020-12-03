@@ -6,5 +6,6 @@ def greetings():
     '''This prints Hello world'''
     print("Hello World!")
 
+
 help(greetings)
 greetings()
