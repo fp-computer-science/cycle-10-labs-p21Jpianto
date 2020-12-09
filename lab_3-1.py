@@ -2,11 +2,12 @@
 
 
 def sum_to(n):
-    toal = 0
-    for i in range(n + 1):
-        total += 1
+    total = 0
+    iteration = 1
+    while iteration < n+1:
+        total += iteration
+        iteration += 1
     return total
-
 
 num = input("Please give a number")
 
